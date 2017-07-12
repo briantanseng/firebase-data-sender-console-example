@@ -4,10 +4,10 @@ This is a simple node.js project that simulates posting of JSON data to Firebase
 
 ### Project dependencies
 
-'''
+```
 npm install --save firebase
 npm install --save moment
-'''
+```
 
 ### Install the node modules
 
@@ -29,4 +29,4 @@ E.G. Replace this in your apps: https://[project-name].firebaseio.com/
 
 ### Data Structure
 
-Import the sample data from database-export.json to a black database
+Import the sample data from database-export.json to an empty database
