@@ -2,24 +2,13 @@
 
 This is a simple node.js project that simulates posting of JSON data to Firebase Database. 
 
-### Project dependencies
+## Getting Started
 
-```
-npm install --save firebase
-npm install --save moment
-```
-
-### Install the node modules
+### Install the dependencies
 
 ```
 node install
 ```
-
-### Setup the private key (downloadable as a JSON file)
-
- - Download the private key from Firebase Console > Project Settings > Service Accounts > Generate New Private Key
- - Copy the file to this directory
- - Edit the apps to the correct json filename
 
 ### Update the database URL
 
