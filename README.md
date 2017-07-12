@@ -4,17 +4,22 @@ This is a simple command line node.js project that posts random data (to simulat
 
 ## Getting Started
 
-### Install the dependencies
+### Dependencies
+
+You need node.js in your life to run this project. You can install node via [Node Version Manager](https://github.com/creationix/nvm).
+
+### Install the Project Dependencies Locally
 
 ```
-npm install
+$ cd [your-project-folder]
+$ npm install
 ```
 
 ### Load Sample Data to Firebase Database
 
 Import the sample data from database-export.json to an empty Firebase Database
 
-### Update the database URL
+### Update the Database URL
 
 Open the configuration file: config.json. Replace this: "https://[firebase-project-id].firebaseio.com/" with the URL of your Firebase Database.
 
@@ -42,5 +47,5 @@ Generating 4 data samples...
 Write operation successful to /devices/-KopAx2GW_f-3_kxNlhQ/data/temperature
 ```
 
-Check your Firebase console to view the new records.
+Check your Firebase console to view the newly created records under the path specified above.
 
