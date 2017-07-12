@@ -1,8 +1,9 @@
 var firebase = require('firebase');
+var CONFIG = require('./config.json');
 
 firebase.initializeApp({
   serviceAccount: 'serviceAccount',
-  databaseURL: "https://[project-name].firebaseio.com/"
+  databaseURL: CONFIG.DB_URL
 });
 
 function getRandomIntInclusive(min, max) {

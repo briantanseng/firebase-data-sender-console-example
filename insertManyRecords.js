@@ -1,10 +1,11 @@
 var firebase = require('firebase');
 var moment = require('moment');
+var CONFIG = require('./config.json');
 var generatePushID = require('./generatePushID');
 
 firebase.initializeApp({
   serviceAccount: 'serviceAccount',
-  databaseURL: "https://[project-name].firebaseio.com/"
+  databaseURL: CONFIG.DB_URL
 });
 
 function getRandomIntInclusive(min, max) {
