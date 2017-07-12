@@ -1,0 +1,16 @@
+{
+  "name": "firebase-data-sender-console-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insertManyRecords.js",
+  "dependencies": {
+    "firebase": "^4.1.3",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Tan Seng",
+  "license": "ISC"
+}

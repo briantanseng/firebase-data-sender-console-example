@@ -1,0 +1,81 @@
+{
+  "devices" : [ {
+    "data" : {
+      "temperature" : {
+        "-Kop86KW6tpcCoYKPLmM" : {
+          "date" : "2017-07-12T12:52:48+08:00",
+          "value" : 30
+        },
+        "-Kop86KZTMCDNL_P80jO" : {
+          "date" : "2017-07-12T12:52:48+08:00",
+          "value" : 33
+        },
+        "-Kop86K_dFNPabMuQ_5m" : {
+          "date" : "2017-07-12T12:52:48+08:00",
+          "value" : 28
+        },
+        "-Kop86K_dFNPabMuQ_5n" : {
+          "date" : "2017-07-12T12:52:48+08:00",
+          "value" : 32
+        },
+        "-Kop86K_dFNPabMuQ_5o" : {
+          "date" : "2017-07-12T12:52:48+08:00",
+          "value" : 23
+        }
+      },
+      "vibration" : [ {
+        "date" : "2017-07-16T19:20:05+08:00",
+        "value" : 20.1
+      }, {
+        "date" : "2017-07-16T19:20:06+08:00",
+        "value" : 22.2
+      }, {
+        "date" : "2017-07-16T19:20:07+08:00",
+        "value" : 25.3
+      } ]
+    },
+    "id" : "very-long-identifier",
+    "location" : "Manila office",
+    "owner" : "98Labs"
+  }, {
+    "data" : {
+      "temperature" : {
+        "-Koop05XIQkaX4__N5vg" : {
+          "date" : "2017-07-12T11:24:59+08:00",
+          "value" : 19
+        },
+        "-Kop7GtrxMc_Ywb4AOiK" : {
+          "date" : "2017-07-12T12:49:09+08:00",
+          "value" : 19
+        },
+        "-Kop7GtwrSlbvwSiyszq" : {
+          "date" : "2017-07-12T12:49:09+08:00",
+          "value" : 31
+        },
+        "-Kop7GtwrSlbvwSiyszr" : {
+          "date" : "2017-07-12T12:49:09+08:00",
+          "value" : 24
+        }
+      },
+      "vibration" : [ {
+        "date" : "2017-07-16T19:20:05+08:00",
+        "value" : 54.1
+      }, {
+        "date" : "2017-07-16T19:20:06+08:00",
+        "value" : 65.2
+      }, {
+        "date" : "2017-07-16T19:20:07+08:00",
+        "value" : 40.0
+      } ]
+    },
+    "id" : "another-sensor-far-far-away",
+    "location" : "Cebu office",
+    "owner" : "98Labs"
+  } ],
+  "messages" : {
+    "-KoltzuAZw9aFKQDistO" : {
+      "id" : 86,
+      "message" : "q8uchi413kl"
+    }
+  }
+}
