@@ -1,6 +1,6 @@
 # firebase-data-sender-console-example
 
-This is a simple node.js project that simulates posting of JSON data to Firebase Database. 
+This is a simple command line node.js project that posts random data (to simulate an IOT source) to a Firebase Database. 
 
 ## Getting Started
 
@@ -12,10 +12,11 @@ node install
 
 ### Update the database URL
 
-Edit the apps to reference the correct database
+Edit the apps to reference your Firebase Database URL
 
 E.G. Replace this in your apps: https://[project-name].firebaseio.com/
 
 ### Data Structure
 
-Import the sample data from database-export.json to an empty database
+Import the sample data from database-export.json to an empty Firebase Database
+
